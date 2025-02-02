@@ -221,7 +221,8 @@ class WeReadApi:
 
     def transform_id(self, book_id):
         id_length = len(book_id)
-        if re.match("^\\d*$", book_id):
+        # if re.match("^\\d*$", book_id):
+        if re.match("^https://(www\.)?notion.so/(.+)([0-9a-f]{32})/?$", book_id):
             ary = []
             for i in range(0, id_length, 9):
                 ary.append(format(int(book_id[i : min(i + 9, id_length)]), "x"))
