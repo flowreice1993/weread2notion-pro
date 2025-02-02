@@ -4,7 +4,7 @@ from weread2notionpro.weread_api import WeReadApi
 from weread2notionpro import utils
 from weread2notionpro.config import book_properties_type_dict, tz
 
-TAG_ICON_URL = "https://www.notion.so/icons/tag_gray.svg
+TAG_ICON_URL = "https://www.notion.so/icons/tag_gray.svg"
 USER_ICON_URL = "https://www.notion.so/icons/user-circle-filled_gray.svg"
 BOOK_ICON_URL = "https://www.notion.so/icons/book_gray.svg"
 rating = {"poor": "⭐️", "fair": "⭐️⭐️⭐️", "good": "⭐️⭐️⭐️⭐️⭐️"}
